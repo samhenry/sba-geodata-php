@@ -87,7 +87,7 @@ class Geodata
    */
   public function getCity($state_abbrev, $city_name, $subject = 'data')
   {
-      $county_name = rawurlencode(strtolower($city_name));
+      $city_name = rawurlencode(strtolower($city_name));
       $state_abbrev = strtolower(substr($state_abbrev, 0, 2));
       $subject = strtolower($subject);
       $function = 'all_data_for_city_of';
