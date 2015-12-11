@@ -1,0 +1,23 @@
+{
+	"name": "samhenry/sba-geodata-php",
+	"type": "library",
+	"description": "A PHP wrapper for the U.S. Small Business Administration (SBA) U.S. City & County Geodata API.",
+	"keywords": ["sba", "geodata", "geography", "usa", "api"],
+	"homepage": "https://github.com/samhenry/sba-geodata-php",
+	"license": "BSD",
+	"authors": [
+		{
+			"name": "Sam Henry",
+			"homepage": "http://gtwebsystems.com"
+		}
+	],
+	"require": {
+		"php": ">=5.2.0",
+		"ext-curl": "*"
+	},
+	"autoload": {
+		"psr-4": {
+			"SamHenry\\Geodata\\": "src"
+		}
+	}
+}
