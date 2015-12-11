@@ -12,3 +12,9 @@ before_script:
   - composer install --prefer-source --no-interaction --dev
  
 script: phpunit
+
+before_install:
+  - pip install --user codecov
+  
+after_success:
+  - codecov
