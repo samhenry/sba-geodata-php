@@ -6,7 +6,7 @@ A PHP wrapper for the U.S. Small Business Administration (SBA) U.S. City & Count
 
 ## Requirements
 
-- PHP 5.2.x or higher
+- PHP 5.3.x or higher
 - cURL
 
 ## Credits
