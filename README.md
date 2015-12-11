@@ -1,4 +1,4 @@
-# ! SBA Geodata API
+# SBA Geodata API
 
 ## About
 
