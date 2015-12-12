@@ -49,7 +49,7 @@ class Geodata
    */
   public function setFormat($format = 'json')
   {
-      (in_array($format, array('json', 'xml'))) ? $format : 'json';
+      (in_array($format, ['json', 'xml'])) ? $format : 'json';
       $this->_format = $format;
   }
 
